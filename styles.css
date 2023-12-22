@@ -4,6 +4,7 @@
     margin: 0;
     font-size: 62.5%;
     background-color: #333333;
+    color: white;
 }
 header {
     border: solid black;
@@ -87,6 +88,62 @@ h1, p{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+form {
+    width: 50vw;
+    height: 80vh;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+label, textarea, input {
+    width: 50vw;
+}
+form div {
+    display: flex;
+    width: 50vw;
+}
+label, textarea {
+    display: flex;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+textarea {
+    background-color: white;
+    color: black;
+}
+input {
+    height: 20px;
+    width: 90vw;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+button {
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffaa80;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+button:hover {
+    background-color: #ff6600;
+    cursor: pointer;
+}
+button:active {
+    background-color: #ffaa80;
 }
 @media screen and (max-width: 450px) {
    .home {

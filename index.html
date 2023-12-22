@@ -38,7 +38,7 @@
         </div>
       </div>
       <div id="about-me" class="about-me">
-        <h1>About Me</h1>
+        <h1>Skills</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -57,7 +57,35 @@
         <div class="portfolio-item-5"></div>
         <div class="portfolio-item-6"></div>
       </div>
-      <div id="contact" class="contact"></div>
+      <div id="contact" class="contact">
+        <form action="submit">
+          <div>
+            <label for="first-name">First Name: </label>
+            <input required type="text" name="text" id="first-name"></input>
+          </div>
+          <div>
+            <label for="last-name">Last Name: </label>
+            <input required type="text" name="text" id="last-name"></input>
+          </div>
+          <div>
+            <label for="email">Email: </label>
+            <input required type="email" name="email" id="email"></input>
+          </div>
+          <div>
+            <label for="tel">Phone Number: </label>
+            <input required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" name="phone-number" id="tel"></input>
+          </div>
+          <section class="textarea">
+            <label for="message">Message: </label>
+            <textarea name="" id="message" cols="15" rows="5" placeholder="Send me a message or a question..."></textarea>
+          </section>
+          <div class="button">
+            <a href="mailto:nguyennghi20072000@gmail.com">
+              <button>Submit</button>
+            </a>
+          </div>
+        </form>
+      </div>
     </main>
     <footer></footer>
   </body>
